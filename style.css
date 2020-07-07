@@ -1,0 +1,75 @@
+.container{
+    margin-bottom: 50px;
+}
+.button-bannar{
+    background-color: black;
+    color:white;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.carousel-indicators li{
+    background-color: #fabc0d;
+    margin-top: 100px;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.row h2{
+    font-weight: 700;
+}
+.row p{
+    color: gray;
+}
+#product{
+    margin-top: 120px;
+}
+.card-body{
+    text-align: center;
+}
+.card-body p{
+    color: gray;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+    
+}
+.catagories{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.catagories h4{
+    text-align: center;
+}
+.catagories-text{
+    border-bottom: 5px solid darkorange;
+    border-radius: 5px;
+}
+.cat-coll{
+    padding: 50px;
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 20px 0px 20px 0px;
+}
+
+@media screen and (max-width: 980px) {
+    .respons {
+      width: 100%;
+    }
+ }
+
